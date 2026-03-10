@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beehive Creative — Cinematic Video Editing Studio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo">
+        <span class="logo-hex">⬡</span>
+        <span class="logo-text">Beehive<em>Creative</em></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <a href="#contact" class="nav-cta">Let's Work</a>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="hero-bg">
+      <div class="hex-grid">
+        <div class="hex h1"></div><div class="hex h2"></div><div class="hex h3"></div>
+        <div class="hex h4"></div><div class="hex h5"></div><div class="hex h6"></div>
+        <div class="hex h7"></div><div class="hex h8"></div>
+      </div>
+      <div class="hero-glow"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-badge reveal">
+          <span class="badge-dot"></span>
+          <span>Available for new projects</span>
+        </div>
+        <h1 class="hero-headline reveal">
+          Turning Footage<br />Into <em>Cinematic</em><br />Stories
+        </h1>
+        <p class="hero-sub reveal">
+          We craft compelling visual narratives that captivate audiences — from raw footage to polished, award-worthy productions.
+        </p>
+        <div class="hero-actions reveal">
+          <a href="#portfolio" class="btn btn-primary">
+            <span>View Portfolio</span>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+          <a href="#contact" class="btn btn-ghost">Contact Us</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <span class="stat-num" data-target="120">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Projects Delivered</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="48">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <span class="stat-num" data-target="5">0</span><span class="stat-plus">+</span>
+            <span class="stat-label">Years Experience</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-frame">
+          <div class="frame-inner">
+            <div class="frame-screen">
+              <div class="timeline-mockup">
+                <div class="tl-header">
+                  <div class="tl-dot red"></div>
+                  <div class="tl-dot yellow"></div>
+                  <div class="tl-dot green"></div>
+                  <span class="tl-title">Sequence_01.prproj</span>
+                </div>
+                <div class="tl-preview">
+                  <div class="preview-img">
+                    <div class="preview-overlay">
+                      <div class="play-btn">
+                        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                      </div>
+                    </div>
+                    <div class="film-grain"></div>
+                    <div class="preview-scene">
+                      <div class="scene-layer l1"></div>
+                      <div class="scene-layer l2"></div>
+                      <div class="scene-layer l3"></div>
+                      <div class="scene-label">CINEMATIC GRADE — REC.2020</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tl-tracks">
+                  <div class="track-row">
+                    <span class="track-label">V1</span>
+                    <div class="track-clips">
+                      <div class="clip c1"></div>
+                      <div class="clip c2"></div>
+                      <div class="clip c3"></div>
+                      <div class="clip c4"></div>
+                    </div>
+                  </div>
+                  <div class="track-row">
+                    <span class="track-label">V2</span>
+                    <div class="track-clips">
+                      <div class="clip c5"></div>
+                      <div class="clip c6"></div>
+                      <div class="clip c7"></div>
+                    </div>
+                  </div>
+                  <div class="track-row">
+                    <span class="track-label">A1</span>
+                    <div class="track-clips">
+                      <div class="clip audio c8"></div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tl-playhead"></div>
+              </div>
+            </div>
+          </div>
+          <div class="frame-glow"></div>
+        </div>
+        <div class="floating-card fc1 reveal">
+          <span class="fc-icon">🎬</span>
+          <div>
+            <span class="fc-title">4K Cinematic</span>
+            <span class="fc-sub">Color Graded</span>
+          </div>
+        </div>
+        <div class="floating-card fc2 reveal">
+          <span class="fc-icon">⚡</span>
+          <div>
+            <span class="fc-title">48hr Turnaround</span>
+            <span class="fc-sub">Rush Available</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="section-container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-img-wrap">
+            <div class="about-img-inner">
+              <div class="editor-illustration">
+                <div class="monitor-frame">
+                  <div class="monitor-screen">
+                    <div class="color-wheels">
+                      <div class="wheel w1"></div>
+                      <div class="wheel w2"></div>
+                      <div class="wheel w3"></div>
+                    </div>
+                    <div class="waveform">
+                      <div class="wf-bar" style="--h:60%"></div>
+                      <div class="wf-bar" style="--h:80%"></div>
+                      <div class="wf-bar" style="--h:45%"></div>
+                      <div class="wf-bar" style="--h:90%"></div>
+                      <div class="wf-bar" style="--h:70%"></div>
+                      <div class="wf-bar" style="--h:55%"></div>
+                      <div class="wf-bar" style="--h:85%"></div>
+                      <div class="wf-bar" style="--h:65%"></div>
+                      <div class="wf-bar" style="--h:75%"></div>
+                      <div class="wf-bar" style="--h:50%"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="about-badge-wrap">
+              <div class="about-badge">
+                <div class="ab-ring"></div>
+                <span class="ab-num">5+</span>
+                <span class="ab-text">Years<br/>Crafting</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <div class="section-tag">Our Story</div>
+          <h2 class="section-title">Where Every Frame<br /><em>Tells a Story</em></h2>
+          <p class="about-text">
+            Beehive Creative was born from a simple belief: great video editing is an art form. Like bees building their hive with precision and purpose, we construct each edit with meticulous care — every cut, every transition, every color choice is intentional.
+          </p>
+          <p class="about-text">
+            Founded by a team of passionate storytellers and post-production specialists, we've transformed raw footage into compelling visual narratives for brands, creators, and filmmakers worldwide.
+          </p>
+          <div class="about-values">
+            <div class="value-item">
+              <div class="value-icon">✦</div>
+              <div>
+                <strong>Precision Editing</strong>
+                <span>Frame-perfect cuts that flow naturally</span>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">✦</div>
+              <div>
+                <strong>Cinematic Vision</strong>
+                <span>We don't just edit — we direct the emotion</span>
+              </div>
+            </div>
+            <div class="value-item">
+              <div class="value-icon">✦</div>
+              <div>
+                <strong>Client-First Workflow</strong>
+                <span>Revisions until you're completely satisfied</span>
+              </div>
+            </div>
+          </div>
+          <a href="#portfolio" class="btn btn-primary">See Our Work
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">What We Do</div>
+        <h2 class="section-title">Services Built for<br /><em>Exceptional Results</em></h2>
+        <p class="section-sub">From a quick social reel to a full cinematic production — we handle it all with the same level of obsessive craft.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" data-delay="0">
+          <div class="sc-icon-wrap">
+            <div class="sc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M10 9l5 3-5 3V9z"/></svg>
+            </div>
+          </div>
+          <h3 class="sc-title">YouTube Video Editing</h3>
+          <p class="sc-desc">Engaging edits optimized for watch time, retention, and subscriber growth on YouTube.</p>
+          <div class="sc-tag">Most Popular</div>
+        </div>
+        <div class="service-card reveal" data-delay="100">
+          <div class="sc-icon-wrap">
+            <div class="sc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+            </div>
+          </div>
+          <h3 class="sc-title">Social Media Content</h3>
+          <p class="sc-desc">Thumb-stopping Reels, TikToks, and Shorts designed for virality and brand impact.</p>
+        </div>
+        <div class="service-card reveal" data-delay="200">
+          <div class="sc-icon-wrap">
+            <div class="sc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M2 12h20M2 6h20M2 18h20"/><circle cx="8" cy="12" r="2" fill="currentColor" stroke="none"/></svg>
+            </div>
+          </div>
+          <h3 class="sc-title">Commercial Video Editing</h3>
+          <p class="sc-desc">Brand-forward edits for ads, product launches, and corporate communications that convert.</p>
+        </div>
+        <div class="service-card reveal" data-delay="0">
+          <div class="sc-icon-wrap">
+            <div class="sc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>
+            </div>
+          </div>
+          <h3 class="sc-title">Cinematic Edits</h3>
+          <p class="sc-desc">High-end narrative edits for short films, documentaries, and event recaps with filmic quality.</p>
+        </div>
+        <div class="service-card reveal" data-delay="100">
+          <div class="sc-icon-wrap">
+            <div class="sc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="5"/><path d="M12 2v2m0 16v2M2 12h2m16 0h2"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/></svg>
+            </div>
+          </div>
+          <h3 class="sc-title">Color Grading</h3>
+          <p class="sc-desc">Professional DaVinci Resolve grading that gives your footage a signature cinematic look.</p>
+        </div>
+        <div class="service-card reveal" data-delay="200">
+          <div class="sc-icon-wrap">
+            <div class="sc-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+            </div>
+          </div>
+          <h3 class="sc-title">Motion Graphics</h3>
+          <p class="sc-desc">Dynamic titles, animated infographics, and lower thirds that elevate your video brand.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO -->
+  <section class="portfolio" id="portfolio">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Our Work</div>
+        <h2 class="section-title">Selected<br /><em>Projects</em></h2>
+        <p class="section-sub">A curated collection of our most memorable edits across different genres and formats.</p>
+      </div>
+      <div class="portfolio-filters reveal">
+        <button class="pf-btn active" data-filter="all">All</button>
+        <button class="pf-btn" data-filter="cinematic">Cinematic</button>
+        <button class="pf-btn" data-filter="commercial">Commercial</button>
+        <button class="pf-btn" data-filter="social">Social</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="port-card reveal" data-category="cinematic">
+          <div class="pc-thumb">
+            <div class="pc-thumb-inner" style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);">
+              <div class="pc-overlay">
+                <button class="pc-play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+              </div>
+              <div class="pc-scene-art s1">
+                <div class="mountain m1"></div>
+                <div class="mountain m2"></div>
+                <div class="sun-circle"></div>
+              </div>
+              <div class="pc-duration">3:42</div>
+            </div>
+          </div>
+          <div class="pc-info">
+            <span class="pc-cat">Cinematic</span>
+            <h3 class="pc-title">Mountain Horizon — Travel Film</h3>
+            <p class="pc-desc">A sweeping aerial documentary following a solo climber across three continents.</p>
+            <a href="#" class="pc-link">Watch Film
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="port-card reveal" data-category="commercial">
+          <div class="pc-thumb">
+            <div class="pc-thumb-inner" style="background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);">
+              <div class="pc-overlay">
+                <button class="pc-play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+              </div>
+              <div class="pc-scene-art s2">
+                <div class="product-box"></div>
+                <div class="sparkle sp1">✦</div>
+                <div class="sparkle sp2">✦</div>
+                <div class="sparkle sp3">✦</div>
+              </div>
+              <div class="pc-duration">0:30</div>
+            </div>
+          </div>
+          <div class="pc-info">
+            <span class="pc-cat">Commercial</span>
+            <h3 class="pc-title">Luxe Brand Launch — Product Ad</h3>
+            <p class="pc-desc">30-second commercial for a luxury skincare brand launch across digital platforms.</p>
+            <a href="#" class="pc-link">Watch Film
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="port-card reveal" data-category="social">
+          <div class="pc-thumb">
+            <div class="pc-thumb-inner" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);">
+              <div class="pc-overlay">
+                <button class="pc-play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+              </div>
+              <div class="pc-scene-art s3">
+                <div class="social-phone"></div>
+                <div class="social-heart">❤️</div>
+              </div>
+              <div class="pc-duration">0:60</div>
+            </div>
+          </div>
+          <div class="pc-info">
+            <span class="pc-cat">Social</span>
+            <h3 class="pc-title">Viral Reel Package — Fitness Brand</h3>
+            <p class="pc-desc">12-reel content package that drove 2.3M views and 40K new followers in 30 days.</p>
+            <a href="#" class="pc-link">Watch Film
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="port-card reveal" data-category="cinematic">
+          <div class="pc-thumb">
+            <div class="pc-thumb-inner" style="background: linear-gradient(135deg, #2d3561 0%, #c05c7e 100%);">
+              <div class="pc-overlay">
+                <button class="pc-play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+              </div>
+              <div class="pc-scene-art s4">
+                <div class="city-silhouette">
+                  <div class="building b1"></div>
+                  <div class="building b2"></div>
+                  <div class="building b3"></div>
+                  <div class="building b4"></div>
+                  <div class="building b5"></div>
+                </div>
+              </div>
+              <div class="pc-duration">8:17</div>
+            </div>
+          </div>
+          <div class="pc-info">
+            <span class="pc-cat">Cinematic</span>
+            <h3 class="pc-title">Neon Nights — Short Film</h3>
+            <p class="pc-desc">Award-winning short film exploring solitude in an urban landscape at midnight.</p>
+            <a href="#" class="pc-link">Watch Film
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="port-card reveal" data-category="commercial">
+          <div class="pc-thumb">
+            <div class="pc-thumb-inner" style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);">
+              <div class="pc-overlay">
+                <button class="pc-play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+              </div>
+              <div class="pc-scene-art s5">
+                <div class="food-circle"></div>
+                <div class="steam-line st1"></div>
+                <div class="steam-line st2"></div>
+              </div>
+              <div class="pc-duration">1:00</div>
+            </div>
+          </div>
+          <div class="pc-info">
+            <span class="pc-cat">Commercial</span>
+            <h3 class="pc-title">Harvest Kitchen — Restaurant Promo</h3>
+            <p class="pc-desc">Mouthwatering food editorial for an upscale farm-to-table restaurant chain.</p>
+            <a href="#" class="pc-link">Watch Film
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="port-card reveal" data-category="social">
+          <div class="pc-thumb">
+            <div class="pc-thumb-inner" style="background: linear-gradient(135deg, #fc4a1a 0%, #f7b733 100%);">
+              <div class="pc-overlay">
+                <button class="pc-play">
+                  <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+                </button>
+              </div>
+              <div class="pc-scene-art s6">
+                <div class="event-stage"></div>
+                <div class="spotlight sl1"></div>
+                <div class="spotlight sl2"></div>
+              </div>
+              <div class="pc-duration">2:30</div>
+            </div>
+          </div>
+          <div class="pc-info">
+            <span class="pc-cat">Social</span>
+            <h3 class="pc-title">Festival After-Movie — Sunburn 2024</h3>
+            <p class="pc-desc">High-energy recap video for one of Asia's biggest music festivals, seen by 1.8M people.</p>
+            <a href="#" class="pc-link">Watch Film
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS -->
+  <section class="testimonials" id="testimonials">
+    <div class="section-container">
+      <div class="section-header reveal">
+        <div class="section-tag">Client Love</div>
+        <h2 class="section-title">What Our Clients<br /><em>Say About Us</em></h2>
+      </div>
+      <div class="testi-track-wrap">
+        <div class="testi-track" id="testiTrack">
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p class="tc-quote">"Beehive Creative completely transformed our brand's YouTube presence. The editing quality is simply cinematic — our watch time went up 300% within two months."</p>
+            <div class="tc-author">
+              <div class="tc-avatar" style="background: linear-gradient(135deg,#f6d365,#fda085)">MR</div>
+              <div>
+                <span class="tc-name">Marcus Reid</span>
+                <span class="tc-role">CEO, Apex Fitness</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p class="tc-quote">"I've worked with many video editors, but Beehive is on another level. They understand storytelling, not just cutting clips together. Our film festival entry won Best Short Film!"</p>
+            <div class="tc-author">
+              <div class="tc-avatar" style="background: linear-gradient(135deg,#667eea,#764ba2)">SC</div>
+              <div>
+                <span class="tc-name">Sofia Chen</span>
+                <span class="tc-role">Independent Filmmaker</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p class="tc-quote">"Our product launch video exceeded every expectation. Beehive Creative delivered a commercial that felt like something from a major agency — at a fraction of the cost."</p>
+            <div class="tc-author">
+              <div class="tc-avatar" style="background: linear-gradient(135deg,#11998e,#38ef7d)">JA</div>
+              <div>
+                <span class="tc-name">James Alvarez</span>
+                <span class="tc-role">Founder, Luminos Skincare</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p class="tc-quote">"The color grading alone was worth every penny. They gave our travel content a look I'd only seen in Netflix productions. Our follower count doubled in 3 months!"</p>
+            <div class="tc-author">
+              <div class="tc-avatar" style="background: linear-gradient(135deg,#fc4a1a,#f7b733)">PN</div>
+              <div>
+                <span class="tc-name">Priya Nair</span>
+                <span class="tc-role">Travel Content Creator, 800K subs</span>
+              </div>
+            </div>
+          </div>
+          <div class="testi-card">
+            <div class="tc-stars">★★★★★</div>
+            <p class="tc-quote">"Fast, professional, and insanely talented. Beehive Creative is my go-to for every video project. The motion graphics they create are just jaw-dropping every single time."</p>
+            <div class="tc-author">
+              <div class="tc-avatar" style="background: linear-gradient(135deg,#2d3561,#c05c7e)">DK</div>
+              <div>
+                <span class="tc-name">Daniel Kim</span>
+                <span class="tc-role">Marketing Director, TechFlow</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-controls">
+        <button class="tc-prev" id="tcPrev">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 12H5M12 5l-7 7 7 7"/></svg>
+        </button>
+        <div class="tc-dots" id="tcDots"></div>
+        <button class="tc-next" id="tcNext">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div class="section-container">
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="section-tag">Get In Touch</div>
+          <h2 class="section-title">Ready to Create<br /><em>Something Iconic?</em></h2>
+          <p class="contact-sub">Tell us about your project and we'll get back to you within 24 hours with a custom quote.</p>
+          <div class="contact-links">
+            <a href="mailto:hello@beehivecreative.co" class="cl-item">
+              <div class="cl-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+              </div>
+              <div>
+                <span class="cl-label">Email Us</span>
+                <span class="cl-val">hello@beehivecreative.co</span>
+              </div>
+            </a>
+            <a href="#" class="cl-item">
+              <div class="cl-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+              </div>
+              <div>
+                <span class="cl-label">Instagram</span>
+                <span class="cl-val">@beehivecreative</span>
+              </div>
+            </a>
+            <a href="#" class="cl-item">
+              <div class="cl-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+              </div>
+              <div>
+                <span class="cl-label">YouTube</span>
+                <span class="cl-val">Beehive Creative Studio</span>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form-wrap reveal">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+            <div class="form-group">
+              <label for="project">Project Type</label>
+              <select id="project" name="project">
+                <option value="">Select a service...</option>
+                <option>YouTube Video Editing</option>
+                <option>Social Media Content</option>
+                <option>Commercial Video</option>
+                <option>Cinematic Edit</option>
+                <option>Color Grading</option>
+                <option>Motion Graphics</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Tell Us About Your Project</label>
+              <textarea id="message" name="message" rows="4" placeholder="Describe your vision, timeline, and any specific requirements..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">
+              <span>Send Message</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/></svg>
+            </button>
+            <div class="form-success" id="formSuccess">
+              <span>🎬</span> Message sent! We'll be in touch within 24 hours.
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <a href="#home" class="nav-logo footer-logo">
+          <span class="logo-hex">⬡</span>
+          <span class="logo-text">Beehive<em>Creative</em></span>
+        </a>
+        <p class="footer-tagline">Turning Footage Into Cinematic Stories</p>
+        <div class="footer-social">
+          <a href="#" class="fs-link" aria-label="Instagram">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="#" class="fs-link" aria-label="YouTube">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46a2.78 2.78 0 00-1.95 1.96A29 29 0 001 12a29 29 0 00.46 5.58A2.78 2.78 0 003.41 19.6C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02" fill="currentColor" stroke="none"/></svg>
+          </a>
+          <a href="mailto:hello@beehivecreative.co" class="fs-link" aria-label="Email">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 7L2 7"/></svg>
+          </a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2025 Beehive Creative Studio. All rights reserved.</span>
+        <span>Crafted with ♥ and precision</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
